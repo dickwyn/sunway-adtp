@@ -1,0 +1,28 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+	padding: 10px;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 2em !important;
+	color: blue;
+	background-color: aqua;
+}
+
+.header {
+	font-family: Verdana, sans-serif;
+	color: black;
+	background-color: white;
+}
+
+.headersmall {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.navbar {
+	font-family: sans Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
