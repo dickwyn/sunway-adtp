@@ -1,3 +1,13 @@
+.about-text {
+	font-size: 1.2em;
+}
+
+body {
+	padding-top: 20px;
+	padding-bottom: 200px;
+}
+
+
 /*body {
 	font-family: Arial;
 	font-size: 12px;
@@ -26,7 +36,3 @@ h1 {
 .navbar {
 	font-family: sans Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }*/
-
-.about-text {
-	font-size: 1.2em;
-}
