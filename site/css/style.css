@@ -7,6 +7,10 @@ body {
 	padding-bottom: 200px;
 }
 
+.fineprint {
+	font-size: 0.8em;
+	font-style: italic;
+}
 
 /*body {
 	font-family: Arial;
