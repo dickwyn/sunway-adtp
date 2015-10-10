@@ -1,15 +1,18 @@
-/* Sticky footer styles
--------------------------------------------------- */
 html, body {
   height: 100%;
 }
 
-footer {
+.footer {
   position: relative;
   bottom: 0;
   width: 100%;
   height: auto;
   background-color: aqua;
+}
+
+.wrap {
+  height: auto;
+  padding-bottom: 200px;
 }
 
 .attribution {
