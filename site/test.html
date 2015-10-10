@@ -31,18 +31,27 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li class="dropdown">
+                            <li><a href="apply.html">News/Events</a></li>
+                            <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="academics.html">Academics</a></li>
-									<li><a href="admissions.html">Admissions</a></li>
-									<li><a href="committee.html">Student Committee</a></li>
-									<li><a href="apply.html">Apply</a></li>
-									<li role="separator" class="divider"></li>
+									<li><a href="academics.html">The Program</a></li>
+                                    <li><a href="committee.html">Student Committee</a></li>
+                                    <li><a href="apply.html">Faculty &amp; staff</a></li>
+                                    <li role="separator" class="divider"></li>
 									<li><a href="http://sunway.edu.my">Sunway University</a></li>
 								</ul>
-							</li>
-							<li><a href="alumni.html">ADTP Alumni</a></li>
+                            </li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="academics.html">Majors</a></li>
+									<li><a href="admissions.html">Admissions</a></li>
+                                    <li><a href="apply.html">Apply</a></li>
+                                    <li><a href="admissions.html">Timetable</a></li>
+								</ul>
+                            </li>
+							<li><a href="alumni.html">Alumni</a></li>
 							<li><a href="apply.html">Contact</a></li>
 						</ul>
 						<form class="navbar-form navbar-right" role="search">
@@ -88,41 +97,51 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<ul><h3>Links</h3>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Store</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">FAQ</a>
-							</button>
-								<button class="btn btn-default btn-xs" type="button">
-							<a href="#">Sitemap</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Privacy</a>
-							</button>
-						</ul>
+                    <div class="col-md-7">
+                        <div class="col-md-4" id="box">
+                            <a class="footer-link" href="academics.html">About ADTP</a>
+                            </br><a class="footer-link" href="admissions.html">Timetable</a>
+                            </br><a class="footer-link" href="admissions.html">Committee</a>
+                            </br><a class="footer-link" href="apply.html">Alumni</a></li>
+                        </div>
+                        <div class="col-md-4" id="box">
+                            <a class="footer-link" href="academics.html">Admissions</a>
+                            </br><a class="footer-link" href="admissions.html">Acadamics</a>
+                            </br><a class="footer-link" href="apply.html">Majors</a></li>
+                            </br><a class="footer-link" href="admissions.html">About SunU</a>
+                        </div>
+                        <div class="col-md-4" id="box">
+                            <a class="footer-link" href="academics.html">Apply</a>
+                            </br><a class="footer-link" href="admissions.html">Contact</a>
+                            </br><a class="footer-link" href="apply.html">Faculty</a></li>
+                            </br><a class="footer-link" href="admissions.html">News/Events</a>
+                        </div> 
+                        <div class="col-md-12" id="box">
+						<button class="btn btn-default btn-xs" type="button">
+                            <a href="#">Store</a>
+                        </button>
+                        <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">FAQ</a>
+                        </button>
+                            <button class="btn btn-default btn-xs" type="button">
+                        <a href="#">Sitemap</a>
+                        </button>
+                        <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">Privacy</a>
+                        </button>
+                        <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">© 2015 <i>CENTRE FOR AMERICAN EDUCATION</i></a>
+                        </button>
 					</div>
-					<div class="col-md-4">
-						<ul><h3>Social</h3>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Facebook</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Twitter</a>
-							</button>
-								<button class="btn btn-default btn-xs" type="button">
-							<a href="#">Instagram</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Google+</a>
-							</button>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<p><h3>Getting Here</h3>
-						<button class="btn btn-warning btn-xs" type="button">
+                    </div>
+                    <div class="col-md-5" id="box">
+                        <h5><b>Sunway University</b></h5>
+                        <h6>The premiere tertiary institution in Malaysia with high rankings</h6>
+                        </br>Jalan Universiti, Bandar Sunway,
+                        </br>41650 Petaling Jaya, Selangor
+                        </br>Malaysia  
+                        </br>Map/Coordinates</br>
+                        <button class="btn btn-warning btn-xs" type="button">
 							<a href="#">Google Maps</a>
 						</button>
 						<button class="btn btn-warning btn-xs" type="button">
@@ -131,10 +150,19 @@
 						<button class="btn btn-warning btn-xs" type="button">
 							<a href="#">Coordinates</a>
 						</button>
-					</div>
-					<div class="col-md-12">
-						<p class="attribution">© 2015 <i>CENTRE FOR AMERICAN EDUCATION</i></p>
-					</div>
+                        <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">Facebook</a>
+                        </button>
+                        <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">Twitter</a>
+                        </button>
+                            <button class="btn btn-default btn-xs" type="button">
+                        <a href="#">Instagram</a>
+                        </button>
+                        <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">Google+</a>
+                        </button>
+                    </div>
 				</div><!--/.row -->
 			</div><!--/.container -->
 		</footer><!--/.footer -->
