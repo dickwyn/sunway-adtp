@@ -1,10 +1,22 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 html, body {
   height: 100%;
 }
 
 .footer {
   position: relative;
+=======
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+>>>>>>> parent of 6125184... fixed responsive layout of footer
 =======
 /* Sticky footer styles
 -------------------------------------------------- */
