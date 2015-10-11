@@ -20,17 +20,17 @@ footer {
   padding-top:1%;
 }
 
-
-
 .footer-link {
     font-size: 1.8em;
     color: peachpuff;
 }
 
-
-
 #box {
-    padding-top: 30px;
+    padding-top: 2em;
 }
 
 
+#attribution {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
