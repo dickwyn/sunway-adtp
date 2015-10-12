@@ -21,8 +21,8 @@ footer {
 }
 
 .footer-link {
-    font-size: 1.8em;
-    color: peachpuff;
+    font-size: 2em;
+    color: dodgerblue;
 }
 
 #box {
@@ -33,4 +33,10 @@ footer {
 #attribution {
     padding-top: 3em;
     padding-bottom: 2em;
+}
+
+#social-button {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
 }

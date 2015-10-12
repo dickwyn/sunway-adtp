@@ -27,11 +27,11 @@ body {
 
 .featurette-heading {
     font-size: 3em;
+    padding-left: 0.2em;
 }
 
-#social-button {
-    padding-left: 3em;
-    padding-right: 3em;
+.lead {
+    padding-left: 0.5em;
 }
 
 /*body {
