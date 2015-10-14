@@ -31,7 +31,7 @@ footer {
 
 
 #attribution {
-    padding-top: 3em;
+    padding-top: 1em;
     padding-bottom: 2em;
 }
 
@@ -39,4 +39,32 @@ footer {
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 2em;
+}
+
+
+.footer-break {
+    background-color: red;
+    border-color: red;
+    height: 4px;
+}
+
+.footer-links {
+    font-size:1.8em;
+}
+
+#address {
+    font-size: 1.5em;
+}
+
+
+
+.social-padding {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+#box-address {
+    padding-top: 2em;
+    padding-left:5%;
+    padding-bottom: 2em;
 }
