@@ -5,11 +5,23 @@ html, body {
 }
 
 footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  background-color: aqua;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+
+a:link {
+ color:skyblue;
+}
+
+a:visited {
+ color: aqua;
+}
+
+a:hover {
+ color: brown;
 }
 
 .attribution {
@@ -29,7 +41,6 @@ footer {
     padding-top: 2em;
 }
 
-
 #attribution {
     padding-top: 1em;
     padding-bottom: 2em;
@@ -41,22 +52,20 @@ footer {
     padding-top: 2em;
 }
 
-
 .footer-break {
-    background-color: red;
-    border-color: red;
+    background-color: darkred;
+    border-color: darkred;
     height: 4px;
 }
 
 .footer-links {
     font-size:1.8em;
+    color: aliceblue;
 }
 
 #address {
     font-size: 1.5em;
 }
-
-
 
 .social-padding {
     padding-top: 2.5%;
