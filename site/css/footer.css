@@ -9,19 +9,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: auto;
-    background-color: dodgerblue;
-}
-
-a:link {
- color:skyblue;
-}
-
-a:visited {
- color: aqua;
-}
-
-a:hover {
- color: brown;
+    background-color: #303F9F;
 }
 
 .attribution {
@@ -34,7 +22,7 @@ a:hover {
 
 .footer-link {
     font-size: 2em;
-    color: dodgerblue;
+    color: #C5CAE9;
 }
 
 #box {
@@ -53,13 +41,13 @@ a:hover {
 }
 
 .footer-break {
-    background-color: darkred;
-    border-color: darkred;
+    background-color: #B6B6B6;
+    border-color: #B6B6B6;
     height: 4px;
 }
 
-.footer-links {
-    font-size:1.8em;
+.footer-header {
+    font-size:2em;
     color: aliceblue;
 }
 
@@ -68,12 +56,10 @@ a:hover {
 }
 
 .social-padding {
-    padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
 
 #box-address {
     padding-top: 2em;
-    padding-left:5%;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
