@@ -21,74 +21,70 @@
     <body>
 
         <!-- =============== NAVBAR =============== -->
-        <div class="navbar-wrapper">
+
+        <div class="alert alert-warning alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          Under construction, mind the bugs
+        </div>
+
+        <div class="row">
+            <div class="col-md-1">
+                <img class="logo" src="../assets/logo-1.png" alt="logo">
+            </div>
+            <div class="col-md-4">
+                <h2>LOREM IPSUM</h2>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-custom navbar-static-top">
             <div class="container">
-
-                <div class="alert alert-warning alert-dismissible" role="alert">
-                  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  Under construction, mind the bugs
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">ADTP</a>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-1">
-                        <img class="logo" src="../assets/logo-1.png" alt="logo">
-                    </div>
-                    <div class="col-md-4">
-                        <h2>LOREM IPSUM</h2>
-                    </div>
-                </div>
-
-                <nav class="navbar navbar-default navbar-static-top">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.html">ADTP</a>
-                        </div>
-                        <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li><a href="apply.html">News/Events</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="academics.html">The Program</a></li>
-                                        <li><a href="committee.html">Student Committee</a></li>
-                                        <li><a href="apply.html">Faculty &amp; staff</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="http://sunway.edu.my">Sunway University</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="academics.html">Majors</a></li>
-                                        <li><a href="admissions.html">Admissions</a></li>
-                                        <li><a href="apply.html">Apply</a></li>
-                                        <li><a href="admissions.html">Timetable</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="alumni.html">Alumni</a></li>
-                                <li><a href="apply.html">Contact</a></li>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="apply.html">News/Events</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="academics.html">The Program</a></li>
+                                <li><a href="committee.html">Student Committee</a></li>
+                                <li><a href="apply.html">Faculty &amp; staff</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://sunway.edu.my">Sunway University</a></li>
                             </ul>
-                            <div class="col-sm-3 col-md-3 pull-right">
-                                <form class="navbar-form navbar-right" role="search">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                                    </div>
-                                </div>
-                                </form>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="academics.html">Majors</a></li>
+                                <li><a href="admissions.html">Admissions</a></li>
+                                <li><a href="apply.html">Apply</a></li>
+                                <li><a href="admissions.html">Timetable</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="alumni.html">Alumni</a></li>
+                        <li><a href="apply.html">Contact</a></li>
+                    </ul>
+                    <div class="col-sm-3 col-md-3 pull-right">
+                        <form class="navbar-form navbar-right" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                             </div>
-                        </div><!--/.navbar -->
-                    </div><!--/.container-fluid -->
-                </nav><!--/.nav-collapse -->
-            </div><!--/.container -->
-        </div><!--/.nav-wrapper -->
+                        </div>
+                        </form>
+                    </div>
+                </div><!--/.navbar -->
+            </div><!--/.container-fluid -->
+        </nav><!--/.nav-collapse -->
 
         <!-- =============== CAROUSEL =============== -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -592,12 +588,12 @@
                         <a href="#" class="btn btn-default btn-xs">Terms of use</a>
                     </div> -->
 
-                    
-                </div><!--/.row -->      
+
+                </div><!--/.row -->
 
                 <p class="pull-right"><a href="#"><font color="#C5CAE9">Back to top</font></a></p>
                 <p>
-                    <font color="#C5CAE9">Copyright &copy; 2016 CAE &middot; 
+                    <font color="#C5CAE9">Copyright &copy; 2016 CAE &middot;
                         designed by dickwyn &middot;</font>
                     <a href="#"><font color="#C5CAE9">Privacy</a> &middot; </font>
                     <a href="#"><font color="#C5CAE9">Terms</font></a>
