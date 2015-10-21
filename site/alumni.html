@@ -1,142 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<link rel="icon" href="#">
-		<title>Alumni</title>
-		
-		<!-- Custom stylesheet for this page -->
-		<link rel="stylesheet" href="css/navbar.css">
-		<link rel="stylesheet" href="css/footer.css">
-		<link rel="stylesheet" href="css/style.css">
-		
-		<!-- Bootstrap core CSS -->
-		<link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
-	</head>
-	
-	<body>
-        <!-- =============== NAVBAR =============== -->	
-		<div class="container">
-			<img class="logo" src="#" alt="logo">
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html">ADTP</a>
-					</div>
-					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li><a href="about.html">About</a></li>
-							<li><a href="academics.html">Academics</a></li>
-							<li><a href="admissions.html">Admissions</a></li>
-							<li><a href="committee.html">Student Committee</a></li>
-							<li class="active"><a href="alumni.html">Alumni</a></li>
-							<li><a href="apply.html">Apply Now</a></li>
-						</ul>
-						<form class="navbar-form navbar-right" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>
-					</div>
-				</div><!--/.container-fluid -->
-			</nav><!--/.nav-collapse -->
-		</div><!--/.container -->
-		<!-- =============== NAVBAR =============== -->	
-            
-		<div class="container">
-			<ol class="breadcrumb">
-				<li><a href="index.html">Home</a></li>
-				<li class="active">Alumni</li>
-			</ol>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="#">
+        <title>Alumni</title>
+
+        <!-- Custom stylesheet for this page -->
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Bootstrap core CSS -->
+        <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- =============== NAVBAR =============== -->
+        <div class="container">
+            <img class="logo" src="#" alt="logo">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">ADTP</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="academics.html">Academics</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="committee.html">Student Committee</a></li>
+                            <li class="active"><a href="alumni.html">Alumni</a></li>
+                            <li><a href="apply.html">Apply Now</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div><!--/.container-fluid -->
+            </nav><!--/.nav-collapse -->
+        </div><!--/.container -->
+        <!-- =============== NAVBAR =============== -->
+
+        <div class="container">
             <div class="row">
-              <div class="col-md-4">
-                  <h2>Getting started</h2>
-                  <p>
-                      ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                      enables a clean separation of concerns and gives you full control over markup
-                      for enjoyable, agile development.
-                  </p>
-                  <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-              </div>
-              <div class="col-md-4">
-                  <h2>Get more libraries</h2>
-                  <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-                  <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-              </div>
-              <div class="col-md-4">
-                  <h2>Web Hosting</h2>
-                  <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-                  <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-              </div>
-            </div>
-        </div><!-- container -->
-        
-        <!-- =============== FOOTER =============== -->	
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<ul><h3>Links</h3>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Store</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">FAQ</a>
-							</button>
-								<button class="btn btn-default btn-xs" type="button">
-							<a href="#">Sitemap</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Privacy</a>
-							</button>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<ul><h3>Social</h3>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Facebook</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Twitter</a>
-							</button>
-								<button class="btn btn-default btn-xs" type="button">
-							<a href="#">Instagram</a>
-							</button>
-							<button class="btn btn-default btn-xs" type="button">
-								<a href="#">Google+</a>
-							</button>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<p><h3>Getting Here</h3>
-						<button class="btn btn-warning btn-xs" type="button">
-							<a href="#">Google Maps</a>
-						</button>
-						<button class="btn btn-warning btn-xs" type="button">
-							<a href="#">Foursquare</a>
-						</button>
-						<button class="btn btn-warning btn-xs" type="button">
-							<a href="#">Coordinates</a>
-						</button>
-					</div>
-					<div class="col-md-12">
-						<p class="attribution">© 2015 <i>CENTRE FOR AMERICAN EDUCATION</i></p>
-					</div>
-				</div><!--/.row -->
-			</div><!--/.container -->
-		</footer><!--/.footer -->
-		<!-- =============== FOOTER =============== -->	
-    
-		<!-- jQuery required by JavaScript -->
-		<script src="Scripts/jquery/jquery-2.1.3.min.js"></script>
+
+                <div class="col-md-12">
+                    <h2>Alumni</h2>
+                    <p class="lead">
+                        Past students from Sunway's American Degree Transfer Programme has
+                        transferred to various states all across North America and Canada to further their
+                        studies for respective majors. From California all the way to New York, our students
+                        managed to get enrolled in high ranked tertiary institutions in America.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                        <img class="img-responsive" src="../assets/6.jpg" alt="adtp-alumni-fun">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-responsive" src="../assets/6.jpg" alt="adtp-alumni-fun">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-responsive" src="../assets/6.jpg" alt="adtp-alumni-fun">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-responsive" src="../assets/6.jpg" alt="adtp-alumni-fun">
+                    </div>
+                <div class="col-md-12">
+                    <h2>Notable Alumni</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Michigan</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Lim Choong Beng</h4>
+                                <p>
+                                    Western Michigan University - National 173
+                                    </br>Mechanical Engineering
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Swa Lynson</h4>
+                                <p>
+                                    Western Michigan University - National 173
+                                    </br>Computer Science
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Chin Kahi Yi</h4>
+                                <p>
+                                    University of Michigan - National 129
+                                    </br>Mechanical Engineering
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">New York</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Abigail Lim Shu Yee</h4>
+                                <p>
+                                    Cornell University - National 15
+                                    </br>Biomedical Engineering
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Swa Lynson</h4>
+                                <p>
+                                    University at Albany, SUNY - National 126
+                                    </br>Nanoscale Engineering/Science
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Illinois</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Too Seng Zhao</h4>
+                                <p>
+                                    Illinois Insitute of Technology - National 116
+                                    </br>Computer Science
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Iowa</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Bang Yun Qi</h4>
+                                <p>
+                                    Iowa State University - National 106
+                                    </br>Aerospace Engineering
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Chan Khai Sheng</h4>
+                                <p>
+                                    Iowa State University - National 106
+                                    </br>Mechanical Engineering
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Amuthan Rajah</h4>
+                                <p>
+                                    Actuarial Science - Regional 3
+                                    </br>Actuarial Science
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Aaaron Sum Yao Hur</h4>
+                                <p>
+                                    Actuarial Science - Regional 3
+                                    </br>Actuarial Science, Mathematics and Economics
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Lim Fang Hao</h4>
+                                <p>
+                                    Microbiology - National 106
+                                    </br>Iowa State University
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Ontario</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Wong Zhen Ken</h4>
+                                <p>
+                                    Carelton University - unranked
+                                    </br>Psychology
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Ng Yik Juen</h4>
+                                <p>
+                                    University of Waterloo - unranked
+                                    </br>Actuarial Science
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Oklahoma</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Jayashini A/P Vasanthan</h4>
+                                <p>
+                                    University of Central Oklahoma - Regional 75
+                                    </br>Actuarial Science
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Indiana</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Chin Yung Wei</h4>
+                                <p>
+                                    Indiana University Purdue University Indianapolis - National 194
+                                    </br>Mechanical Engineering
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Minnesota</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Tan Jun Wei</h4>
+                                <p>
+                                    University of Minnesota Twin Cities - National 71
+                                    </br>Environmental Science
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Fong Hui Chi</h4>
+                                <p>
+                                    University of Minnesota Twin Cities - National 71
+                                    </br>Supply Chain Managment
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Ong Chee Chuen</h4>
+                                <p>
+                                    University of Minnesota Twin Cities - National 71
+                                    </br>Mechanical Engineering
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Arizona</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Brenda Vidyashini</h4>
+                                <p>
+                                    Arizona State University - National 129
+                                    </br>Biological Science
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Leong Wong Lee Yew</h4>
+                                <p>
+                                    Arizona State University - National 129
+                                    </br>Computer Science
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Ohio</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Amanda Leong Sue Wen</h4>
+                                <p>
+                                    Ohio State University - National 54
+                                    </br>Mechanical Engineering
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Kansas</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Tan Jia Wei</h4>
+                                <p>
+                                    Wichita State University - unranked
+                                    </br>Communications
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Texas</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Voon Seng Hong</h4>
+                                <p>
+                                    University of Texas at Arlington - National 170
+                                    </br>Aeronautical Engineering
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Hawaii</div>
+                        <table class="table">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Muhammad Naufal Bin Razin</h4>
+                                <p>
+                                    University of Hawaii Manoa - National 168
+                                    </br>Meteorology
+                                </p>
+                            </div>
+                        </table>
+                    </div><!--/.panel -->
+                </div><!--/.col -->
+            </div><!--/.row -->
+        </div><!--/.container -->
+
+        <!-- =============== FOOTER =============== -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul><h3>Links</h3>
+                            <button class="btn btn-default btn-xs" type="button">
+                                <a href="#">Store</a>
+                            </button>
+                            <button class="btn btn-default btn-xs" type="button">
+                                <a href="#">FAQ</a>
+                            </button>
+                                <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">Sitemap</a>
+                            </button>
+                            <button class="btn btn-default btn-xs" type="button">
+                                <a href="#">Privacy</a>
+                            </button>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul><h3>Social</h3>
+                            <button class="btn btn-default btn-xs" type="button">
+                                <a href="#">Facebook</a>
+                            </button>
+                            <button class="btn btn-default btn-xs" type="button">
+                                <a href="#">Twitter</a>
+                            </button>
+                                <button class="btn btn-default btn-xs" type="button">
+                            <a href="#">Instagram</a>
+                            </button>
+                            <button class="btn btn-default btn-xs" type="button">
+                                <a href="#">Google+</a>
+                            </button>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p><h3>Getting Here</h3>
+                        <button class="btn btn-warning btn-xs" type="button">
+                            <a href="#">Google Maps</a>
+                        </button>
+                        <button class="btn btn-warning btn-xs" type="button">
+                            <a href="#">Foursquare</a>
+                        </button>
+                        <button class="btn btn-warning btn-xs" type="button">
+                            <a href="#">Coordinates</a>
+                        </button>
+                    </div>
+                    <div class="col-md-12">
+                        <p class="attribution">© 2015 <i>CENTRE FOR AMERICAN EDUCATION</i></p>
+                    </div>
+                </div><!--/.row -->
+            </div><!--/.container -->
+        </footer><!--/.footer -->
+        <!-- =============== FOOTER =============== -->
+
+        <!-- jQuery required by JavaScript -->
+        <script src="Scripts/jquery/jquery-2.1.3.min.js"></script>
         <!-- Bootstrap core JavaScript -->
-    	<script src="scripts/js/bootstrap.min.js"></script>    
-	</body>
+        <script src="scripts/js/bootstrap.min.js"></script>
+    </body>
 </html>
