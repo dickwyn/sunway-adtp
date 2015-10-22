@@ -21,12 +21,10 @@
     <body>
 
         <!-- =============== NAVBAR =============== -->
-
         <div class="alert alert-warning alert-dismissible" role="alert">
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          Under construction, mind the bugs
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            Under construction, mind the bugs
         </div>
-
         <div class="container">
             <div class="row">
                 <div class="col-md-push-1">
@@ -40,55 +38,57 @@
                 </div>
             </div>
         </div>
-
-        <nav class="navbar navbar-custom navbar-static-top">
-            <div class="container">
+        <div class="container">
+            <nav class="navbar navbar-custom navbar-static-top">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="apply.html">News/Events</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="academics.html">The Program</a></li>
-                                <li><a href="committee.html">Student Committee</a></li>
-                                <li><a href="apply.html">Faculty &amp; staff</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="http://sunway.edu.my">Sunway University</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="academics.html">Majors</a></li>
-                                <li><a href="admissions.html">Admissions</a></li>
-                                <li><a href="apply.html">Apply</a></li>
-                                <li><a href="admissions.html">Timetable</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="alumni.html">Alumni</a></li>
-                        <li><a href="apply.html">Contact</a></li>
-                    </ul>
-                    <div class="col-sm-3 col-md-3 pull-right">
-                        <form class="navbar-form navbar-right" role="search">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Looking for something" name="srch-term" id="srch-term">
-                            <div class="input-group-btn">
-                                <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search" style="color:#FFFFFF" ></i></button>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="col-lg-9 col-sm-9">
+                        <ul class="nav navbar-nav">
+                            <li><a href="apply.html">News/Events</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="academics.html">The Program</a></li>
+                                    <li><a href="committee.html">Student Committee</a></li>
+                                    <li><a href="apply.html">Faculty &amp; staff</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="http://sunway.edu.my">Sunway University</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="academics.html">Majors</a></li>
+                                    <li><a href="admissions.html">Admissions</a></li>
+                                    <li><a href="apply.html">Apply</a></li>
+                                    <li><a href="admissions.html">Timetable</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="alumni.html">Alumni</a></li>
+                            <li><a href="apply.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-3">
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Looking for something" name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search" style="color:#FFFFFF" ></i></button>
+                                </div>
                             </div>
-                        </div>
                         </form>
                     </div>
-                </div><!--/.navbar -->
-            </div><!--/.container-fluid -->
-        </nav><!--/.nav-collapse -->
+                </div><!-- /.navbar-collapse -->
+            </nav><!-- /.navbar -->
+        </div><!-- /.container -->
+
 
         <!-- =============== CAROUSEL =============== -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -396,3 +396,60 @@
         <script src="scripts/js/bootstrap.min.js"></script>
     </body>
 </html>
+
+
+
+    <!-- =============== OLD NAVBAR ===============
+    <div class="container">
+        <nav class="navbar navbar-custom navbar-static-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="apply.html">News/Events</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="academics.html">The Program</a></li>
+                            <li><a href="committee.html">Student Committee</a></li>
+                            <li><a href="apply.html">Faculty &amp; staff</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="http://sunway.edu.my">Sunway University</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="academics.html">Majors</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="apply.html">Apply</a></li>
+                            <li><a href="admissions.html">Timetable</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="alumni.html">Alumni</a></li>
+                    <li><a href="apply.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <div class="col-sm-12 col-md-12 col-xs-12">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Looking for something" name="srch-term" id="srch-term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search" style="color:#FFFFFF" ></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                    </li>
+                </ul>
+            </div><!--/.navbar ->
+        </nav><!--/.nav-collapse ->
+    </div>
+    -->

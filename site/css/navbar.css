@@ -46,8 +46,8 @@ body {
 .navbar-custom {
     background-color: #303F9F;
     border-color: #303F9F;
-    height: auto;
 }
+
 
 .navbar-custom .navbar-brand {
     color: aqua;
@@ -64,7 +64,7 @@ body {
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-    color: #212121;
+    color: gray;
 }
 
 .navbar-custom .navbar-nav > .active > a,
@@ -140,4 +140,8 @@ body {
     border-color: gray;
     color: darkslategrey;
     border-radius: 0px;
+}
+
+.search-box {
+    padding-right: 20px;
 }
