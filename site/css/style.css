@@ -33,6 +33,28 @@ body {
     padding-left: 0.5em;
 }
 
+.button-padding {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.no-padding {
+    font-size: 2em;
+}
+
+.container .row .input-group .input-group-addon,
+.container .row .input-group .form-control,
+.container .row .input-group .input-group-btn .btn{
+    border-radius: 0px;
+    border-color: #303F9F;
+}
+
+.container .row .btn {
+    border-radius:0px;
+}
+
+
+
 /*body {
     font-family: Arial;
     font-size: 12px;
@@ -63,19 +85,3 @@ h1 {
 }*/
 
 
-
-
-
-
-
-
-
-
-.button-padding {
-    padding-top: 1.5em;
-    padding-bottom: 2em;
-}
-
-.no-padding {
-    font-size: 2em;
-}

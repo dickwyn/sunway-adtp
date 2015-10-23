@@ -59,6 +59,10 @@ footer {
     padding-bottom: 2.5%;
 }
 
+.social-padding .btn:hover {
+    color: #C5CAE9;
+}
+
 #box-address {
     padding-top: 2em;
     padding-bottom: 1em;
