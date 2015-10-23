@@ -14,18 +14,35 @@ body {
 
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 2em;
 }
 
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+.container .carousel .carousel-inner .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .carousel .carousel-inner .carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.container .carousel .carousel-inner .first-slide,
+.container .carousel .carousel-inner .second-slide,
+.container .carousel .carousel-inner .third-slide {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(2px);
+}
+
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color: #212121;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -47,7 +64,6 @@ body {
     background-color: #303F9F;
     border-color: #303F9F;
 }
-
 
 .navbar-custom .navbar-brand {
     color: aqua;
