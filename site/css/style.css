@@ -83,3 +83,12 @@ h1 {
 }*/
 
 
+
+.breadcrumb {
+    border-radius: 0px;
+    font-size: 1em;
+}
+
+.page-header {
+    padding-top: 0px;
+}

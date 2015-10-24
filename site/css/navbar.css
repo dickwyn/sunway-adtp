@@ -14,7 +14,8 @@ body {
 
 .carousel {
   height: 500px;
-  margin-bottom: 2em;
+  margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .carousel-caption {
@@ -161,3 +162,11 @@ body {
 .search-box {
     padding-right: 20px;
 }
+
+.navbar-padding {
+    padding-bottom: 5em;
+}
+
+
+
+
