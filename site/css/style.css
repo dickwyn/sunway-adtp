@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 .about-text {
     font-size:1.2em;
     padding-bottom: 5px;
@@ -9,10 +13,6 @@
 
 .img-responsive {
     padding-bottom: 1%;
-}
-
-body {
-    padding-bottom: 200px;
 }
 
 .fineprint {
@@ -52,37 +52,6 @@ body {
 .container .row .btn {
     border-radius:0px;
 }
-
-/*body {
-    font-family: Arial;
-    font-size: 12px;
-    padding: 10px;
-}
-
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 2em !important;
-    color: blue;
-    background-color: aqua;
-}
-
-.header {
-    font-family: Verdana, sans-serif;
-    color: black;
-    background-color: white;
-}
-
-.headersmall {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    font-style: italic;
-}
-
-.navbar {
-    font-family: sans Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}*/
-
-
 
 .breadcrumb {
     border-radius: 0px;

@@ -1,8 +1,3 @@
-body {
-  padding-top: 0px;
-  padding-bottom: 20px;
-}
-
 .navbar {
     font-size: 1.2em;
     margin-bottom: 20px;
@@ -167,6 +162,23 @@ body {
     padding-bottom: 5em;
 }
 
+/*optional*/
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
 
-
-
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
