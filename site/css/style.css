@@ -61,3 +61,7 @@ html, body {
 .page-header {
     padding-top: 0px;
 }
+
+.highlight-text {
+    font-size: 1.5em;
+}
