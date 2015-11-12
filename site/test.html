@@ -11,6 +11,10 @@
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/style.css">
+        
+        <!-- jQuery Ajax to load header and footer -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="/site/scripts/js/elementReuse.js"></script>
 
         <!-- Bootstrap social icons CSS -->
         <link href="scripts/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -22,82 +26,12 @@
     </head>
 
     <body>
-
-        <!-- =============== NAVBAR =============== -->
         <div class="navbar-wrapper">
             <div class="container">
-        <div class="container">
-            <div class="alert alert-info alert-dismissible" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                Under construction, mind the bugs
-            </div>
-
-            <div class="row">
-                <div class="col-md-push-1">
-                    <a href="index.html">
-                        <font color="#424242">
-                            <img class="logo" style="float:left" src="../assets/logo-1.png" alt="logo">
-                            <h1 class="navbar-logo">testOrange</h1>
-                            <p style="clear:both" class="logo">The premiere learning experience</p>
-                        </font>
-                    </a>
-                </div>
+                <div class="header"></div>
             </div>
         </div>
-        <div class="container">
-            <nav class="navbar navbar-custom navbar-static-top">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <div class="col-lg-9 col-sm-9">
-                        <ul class="nav navbar-nav">
-                            <li><a href="apply.html">Highlights</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="about.html">The Program</a></li>
-                                    <li><a href="committee.html">Student Committee</a></li>
-                                    <li><a href="currentstudent.html">Current Students</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="http://sunway.edu.my">Sunway University</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="academics.html">Majors</a></li>
-                                    <li><a href="admissions.html">Admissions</a></li>
-                                    <li><a href="apply.html">Apply</a></li>
-                                    <li><a href="admissions.html">Timetable</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="alumni.html">Alumni</a></li>
-                            <li><a href="apply.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-sm-3">
-                        <form class="navbar-form navbar-left" role="search">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Looking for something" name="srch-term" id="srch-term">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search" style="color:#FFFFFF" ></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div><!-- /.navbar-collapse -->
-            </nav><!-- /.navbar -->
-        </div><!-- /.container -->
-        </div>
-        </div>
-
-
+        
         <!-- =============== CAROUSEL =============== -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -153,8 +87,6 @@
             </a>
         </div>
         <!-- =============== CAROUSEL =============== -->
-        <!-- =============== NAVBAR =============== -->
-
 
         <div class="container">
             <ol class="breadcrumb">
@@ -295,146 +227,9 @@
             </div>
         </div>
         <!-- =============== NEWS PANEL =============== -->
-
-
-        <!-- =============== FOOTER =============== -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="col-md-4 col-sm-4 col-xs-12" id="box">
-                            <div class="footer-header">About</div>
-                            <hr class="footer-break">
-                            <a class="footer-link" href="academics.html">About ADTP</a>
-                            </br><a class="footer-link" href="currentstudent.html">Students</a>
-                            </br><a class="footer-link" href="committee.html">Committee</a>
-                            </br><a class="footer-link" href="alumni.html">Alumni</a>
-                            </br><a class="footer-link" href="currentstudent.html">Timetable</a>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12" id="box">
-                            <div class="footer-header">Learn More</div>
-                            <hr class="footer-break">
-                            <a class="footer-link" href="admissions.html">Admission</a>
-                            </br><a class="footer-link" href="academics.html">Acadamics</a>
-                            </br><a class="footer-link" href="currentstudent.html">Faculty</a>
-                            </br><a class="footer-link" href="academics.html">Majors</a>
-                            </br><a class="footer-link" href="http://sunway.edu.my" target="_blank">About SunU</a>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12" id="box">
-                            <div class="footer-header">Useful Links</div>
-                            <hr class="footer-break">
-                            <a class="footer-link" href="apply.html">Apply</a>
-                            </br><a class="footer-link" href="currentstudent.html">News/Events</a>
-                            </br><a class="footer-link" href="http://malaysia.usembassy.gov" target="_blank">US Embassy</a>
-                            </br><a class="footer-link" href="http://macee.org.my" target="_blank">MACEE</a>
-                            </br><a class="footer-link" href="http://gpacalculator.net/college-gpa-calculator/" target="_blank">Calculator</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12" id="box-address">
-                        <div class="footer-header">Visit Us</div>
-                        <hr class="footer-break">
-                        <p>
-                            <font color="#C5CAE9">
-                                <h4 id="address"><b>Center for American Education</b></h4>
-                                <h5>The premiere learning experience</h5>
-                                Level 5 NUB, Sunway University,
-                                </br>Jalan Universiti, Bandar Sunway,
-                                </br>41650 Petaling Jaya, Selangor, Malaysia</br>
-                                </br><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
-                                +603 8888 8888 ext: 8888
-                                </br><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                                <a href="mailto:adtp@sunway.edu.my" target="_blank"><font color="#C5CAE9">adtp@sunway.edu.my</font></a>
-                                </br><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                                <a href="https://goo.gl/maps/RkeAXhLq7pE2" target="_blank"><font color="#C5CAE9">Map/Coordinates</font></a>
-                            </font>
-                        </p>
-                    </div>
-                    <div class="col-md-12 col-sm-6" id="social-button">
-                        <center>
-                            <div class="col-md-2 col-sm-12 social-padding">
-                                <a class="btn btn-block btn-social btn-facebook" href="https://www.facebook.com/caestudentcommittee" target="_blank">
-                                    <i class="fa fa-facebook"></i>Facebook
-                                </a>
-                            </div>
-                            <div class="col-md-2 col-sm-12 social-padding">
-                                <a class="btn btn-block btn-social btn-twitter" href="https://twitter.com/ADTPsunwayU" target="_blank">
-                                    <i class="fa fa-twitter"></i>Twitter
-                                </a>
-                            </div>
-                            <div class="col-md-2 col-sm-12 social-padding">
-                                <a class="btn btn-block btn-social btn-linkedin" href="http://www.linkedin.com/groups?about=&gid=8294766&trk=groups%2Fhome-h-share" target="_blank">
-                                    <i class="fa fa-linkedin"></i>LinkedIn
-                                </a>
-                            </div>
-                            <div class="col-md-2 col-sm-12 social-padding">
-                                <a class="btn btn-block btn-social btn-flickr" href="http://4sq.com/1GukV6F" target="_blank">
-                                    <i class="fa fa-foursquare"></i>Foursqaure
-                                </a>
-                            </div>
-                            <div class="col-md-2 col-sm-12 social-padding">
-                                <a class="btn btn-block btn-social btn-instagram" href="http://instagram.com" target="_blank">
-                                    <i class="fa fa-instagram"></i>Instagram
-                                </a>
-                            </div>
-                            <div class="col-md-2 col-sm-12 social-padding">
-                                <a class="btn btn-block btn-social btn-github" href="https://github.com/dickwyn/adtp" target="_blank">
-                                    <i class="fa fa-github"></i>Github
-                                </a>
-                            </div>
-                        </center>
-                    </div>
-                    <!--
-                    <div class="col-md-12 col-sm-12" id="attribution">
-                        <button class="btn btn-default btn-xs disabled" type="button">
-                            <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
-                            TWENTYSIXTEEN CENTRE FOR AMERICAN EDUCATION
-                        </button>
-                        <a href="#" class="btn btn-default btn-xs">Store</a>
-                        <a href="#" class="btn btn-default btn-xs">FAQ</a>
-                        <a href="#" class="btn btn-default btn-xs">Sitemap</a>
-                        <a href="#" class="btn btn-default btn-xs">Privacy</a>
-                        <a href="#" class="btn btn-default btn-xs">Terms of use</a>
-                    </div> -->
-
-
-                </div><!--/.row -->
-
-                <p class="pull-right"><a href="#"><font color="#C5CAE9">Back to top</font></a></p>
-                <p>
-                    <font color="#C5CAE9">Copyright &copy; 2016 CAE &middot; designed by</font>
-                    <a href="#" a href="#" data-toggle="modal" data-target="#myModal"><font color="#C5CAE9">dickwyn</a> &middot; </font>
-                    <a href="#"><font color="#C5CAE9">Privacy</a> &middot; </font>
-                    <a href="#"><font color="#C5CAE9">Terms</font></a>
-                </p>
-
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title">Secret page</h4>
-                            </div>
-                            <div class="modal-body">
-                                <p>
-                                    Are you ready to experience the secrecy in the magical page
-                                    that will blow your mind!
-                                </p>
-                                <div class="fineprint">I am not liable for any damages caused to your device</div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Go Back</button>
-                                <button type="button" class="btn btn-danger">
-                                    <a href="test.html"><font color="#FFFFFF">Proceed</font></a>
-                                </button>
-                            </div>
-                        </div><!-- /.modal-content -->
-                    </div><!-- /.modal-dialog -->
-                </div><!-- /.modal -->
-
-            </div><!--/.container -->
-        </footer><!--/.footer -->
-        <!-- =============== FOOTER =============== -->
-
+        
+         <div class="footer"></div>
+        
         <!-- jQuery required by JavaScript -->
         <script src="Scripts/jquery/jquery-2.1.3.min.js"></script>
         <!-- Bootstrap core JavaScript -->
@@ -443,104 +238,48 @@
 </html>
 
 
-
-    <!-- =============== OLD NAVBAR ===============
-    <div class="container">
-        <nav class="navbar navbar-custom navbar-static-top">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="apply.html">News/Events</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="academics.html">The Program</a></li>
-                            <li><a href="committee.html">Student Committee</a></li>
-                            <li><a href="apply.html">Faculty &amp; staff</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="http://sunway.edu.my">Sunway University</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="academics.html">Majors</a></li>
-                            <li><a href="admissions.html">Admissions</a></li>
-                            <li><a href="apply.html">Apply</a></li>
-                            <li><a href="admissions.html">Timetable</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="alumni.html">Alumni</a></li>
-                    <li><a href="apply.html">Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                <li >
-                    <div class="col-sm-12 col-md-12 col-xs-12">
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Looking for something" name="srch-term" id="srch-term">
-                            <div class="input-group-btn">
-                                <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search" style="color:#FFFFFF" ></i></button>
-                            </div>
-                        </div>
-                    </form>
-                    </div>
-                    </li>
-                </ul>
-            </div><!--/.navbar ->
-        </nav><!--/.nav-collapse ->
+<!--
+<div class="col-xs-3" id="pathway-box">
+    <div class="pathway-chart">
+        SPM / O-Level / UEC / High School / Equivalent
     </div>
-    -->
+</div>
 
-    <!--
-    <div class="col-xs-3" id="pathway-box">
-        <div class="pathway-chart">
-            SPM / O-Level / UEC / High School / Equivalent
-        </div>
+<div class="col-xs-1">
+    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true" style="color:#303F9F"></span>
+</div>
+
+<div class="col-xs-3">
+    <div class="highlight-text">
+        Sunway University <abbr title="American Degree Transfer Program">ADTP</abbr>
+        </br>(1-2 years)
     </div>
+</div>
 
-    <div class="col-xs-1">
-        <span class="glyphicon glyphicon-arrow-right" aria-hidden="true" style="color:#303F9F"></span>
-    </div>
+<div class="col-md-xs">
+    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true" style="color:#303F9F"></span>
+</div>
 
-    <div class="col-xs-3">
+<div class="col-xs-4">
+    <div class="col-md-12">
         <div class="highlight-text">
-            Sunway University <abbr title="American Degree Transfer Program">ADTP</abbr>
-            </br>(1-2 years)
+            Other Universities in:
+            <li>Australia</li>
+            <li>New Zealand</li>
+            <li>Europe</li>
+            <li>Asia</li>
         </div>
     </div>
-
-    <div class="col-md-xs">
-        <span class="glyphicon glyphicon-arrow-right" aria-hidden="true" style="color:#303F9F"></span>
+    <hr>
+    <div class="col-md-12">
+        <div class="highlight-text">
+            US / Canada Universities
+        </div>
     </div>
-
-    <div class="col-xs-4">
-        <div class="col-md-12">
-            <div class="highlight-text">
-                Other Universities in:
-                <li>Australia</li>
-                <li>New Zealand</li>
-                <li>Europe</li>
-                <li>Asia</li>
-            </div>
+    <hr>
+    <div class="col-md-12">
+        <div class="highlight-text">
+            Sunway University or Monash University Sunway Campus Degree Programs
         </div>
-        <hr>
-        <div class="col-md-12">
-            <div class="highlight-text">
-                US / Canada Universities
-            </div>
-        </div>
-        <hr>
-        <div class="col-md-12">
-            <div class="highlight-text">
-                Sunway University or Monash University Sunway Campus Degree Programs
-            </div>
-        </div>
-    </div><!--/.in.col -->
+    </div>
+</div><!--/.in.col -->
