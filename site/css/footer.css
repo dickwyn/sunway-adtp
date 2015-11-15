@@ -19,6 +19,11 @@ footer {
     color: #C5CAE9;
 }
 
+.footer-link:hover,
+.footer-link:focus {
+    color:#C5CAE9;
+}
+
 #box {
     padding-top: 2em;
 }

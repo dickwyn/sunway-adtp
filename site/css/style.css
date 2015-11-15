@@ -53,10 +53,8 @@ html, body {
     border-radius:0px;
 }
 
-
-
 .page-header {
-    padding-top: 0px;
+    padding-top: 0px !important;
 }
 
 .highlight-text {
@@ -77,4 +75,13 @@ html, body {
 
 #pathway-box {
     position: relative;
+}
+
+.jumbotron{
+    background-color: whitesmoke!important;
+    border-radius: 2px !important;
+}
+.container-fluid{
+    padding:0 !important;
+    border-radius: 0px;
 }
