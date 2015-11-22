@@ -22,6 +22,7 @@ footer {
 .footer-link:hover,
 .footer-link:focus {
     color:#C5CAE9;
+    text-decoration: none;
 }
 
 #box {
