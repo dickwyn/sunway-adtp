@@ -1,5 +1,5 @@
 .navbar {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 20px;
 }
 
@@ -7,64 +7,14 @@
     padding-left: 2em;
 }
 
-.carousel {
-    height: 500px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.carousel-caption {
-    z-index: 10;
-}
-
-.container .carousel .carousel-inner .carousel-caption h1 {
-    font-family: 'Roboto', sans-serif;
-}
-
-.container .carousel .carousel-inner .carousel-caption p {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-}
-
-.container .carousel .carousel-inner .first-slide,
-.container .carousel .carousel-inner .second-slide,
-.container .carousel .carousel-inner .third-slide {
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(2px);
-}
-
-.carousel .item {
-    height: 500px;
-    background-color: #212121;
-}
-
-.carousel-inner > .item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 500px;
-}
-
-.navbar-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
-}
-
 .navbar-custom {
     background-color: #303F9F;
     border-color: #303F9F;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .navbar-custom .navbar-brand {
-    color: aqua;
+    color: white;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -74,12 +24,12 @@
 
 .navbar-custom .navbar-nav > li > a {
     color: #C5CAE9;
-    ;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-    color: gray;
+    color: #FFFFFF;
+    background-color: transparent;
 }
 
 .navbar-custom .navbar-nav > .active > a,
@@ -162,29 +112,4 @@
 
 .navbar-padding {
     padding-bottom: 5em;
-}
-
-
-/*optional*/
-
-.navbar-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
-}
-
-.navbar-wrapper > .container {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.navbar-wrapper .navbar {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.navbar-wrapper .navbar .container {
-    width: auto;
 }

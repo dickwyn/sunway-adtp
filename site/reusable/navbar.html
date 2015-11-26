@@ -1,35 +1,23 @@
 <!-- =============== NAVBAR =============== -->
 <div class="container">
-    <div class="alert alert-info alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        Under construction, mind the bugs
-    </div>
-    <div class="row">
-        <div class="col-md-push-1">
-            <a href="index.html">
-                <font color="#424242">
-                    <img class="logo" style="float:left" src="../assets/logo-1.png" alt="logo">
-                    <h1 class="navbar-logo">testOrange</h1>
-                    <p style="clear:both" class="logo">The premiere learning experience</p>
-                </font>
-            </a>
-        </div>
-    </div>
-    <nav class="navbar navbar-custom navbar-static-top">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <div class="col-lg-9 col-sm-9">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    testOrange
+                    <img style="max-width:100px; margin-top: -7px;" src="../../assets/logo-1.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="about.html">The Program</a></li>
                             <li><a href="committee.html">Student Committee</a></li>
@@ -40,7 +28,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACADEMICS<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="academics.html">Majors</a></li>
                             <li><a href="admissions.html">Admissions</a></li>
@@ -48,22 +36,23 @@
                             <li><a href="currentstudent.html">Timetable</a></li>
                         </ul>
                     </li>
-                    <li><a href="alumni.html">Alumni</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="alumni.html">ALUMNI</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
-            </div>
-            <div class="col-lg-3 col-sm-3">
-                <form class="navbar-form navbar-left" role="search" method="get" action="http://google.com/search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" size="25" value="" maxlength="255" placeholder="Looking for something" name="q" id="srch-term">
-                        <div class="input-group-btn">
-                            <button class="btn btn-success" type="submit" name="sitesearch" value="#" checked><i class="glyphicon glyphicon-search" style="color:#FFFFFF"></i></button>
+                <div class="col-sm-3 col-md-3 pull-right">
+                    <form class="navbar-form navbar-left" role="search" method="get" action="http://google.com/search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" size="25" value="" maxlength="255" placeholder="Bazinga!" name="q" id="srch-term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-success" type="submit" name="sitesearch" value="#" checked><i class="glyphicon glyphicon-search" style="color:#FFFFFF"></i></button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.navbar-collapse -->
+        <!-- /.container -->
     </nav>
     <!-- /.navbar -->
 </div>
