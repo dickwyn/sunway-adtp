@@ -4,17 +4,17 @@
 }
 
 .logo {
-  padding-left: 2em;
+    padding-left: 2em;
 }
 
 .carousel {
-  height: 500px;
-  margin-bottom: 0px;
+    height: 500px;
+    margin-bottom: 0px;
     margin-top: 0px;
 }
 
 .carousel-caption {
-  z-index: 10;
+    z-index: 10;
 }
 
 .container .carousel .carousel-inner .carousel-caption h1 {
@@ -37,28 +37,30 @@
 }
 
 .carousel .item {
-  height: 500px;
-  background-color: #212121;
+    height: 500px;
+    background-color: #212121;
 }
+
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
 }
 
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
 }
 
 .navbar-custom {
     background-color: #303F9F;
     border-color: #303F9F;
+    border-radius: 5px;
 }
 
 .navbar-custom .navbar-brand {
@@ -71,7 +73,8 @@
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color: #C5CAE9;;
+    color: #C5CAE9;
+    ;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
@@ -114,7 +117,6 @@
 .navbar-custom .navbar-toggle {
     border-color: #303F9F;
     background-color: #C5CAE9;
-
 }
 
 .navbar-custom .navbar-toggle:hover,
@@ -140,7 +142,7 @@
     font-family: serif;
 }
 
-.navbar .input-group .input-group-btn .btn-success{
+.navbar .input-group .input-group-btn .btn-success {
     background-color: deepskyblue;
     border-color: gray;
     color: #303F9F;
@@ -162,23 +164,27 @@
     padding-bottom: 5em;
 }
 
+
 /*optional*/
+
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
 }
 
 .navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
+
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
+
 .navbar-wrapper .navbar .container {
-  width: auto;
+    width: auto;
 }
