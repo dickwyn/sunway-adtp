@@ -67,3 +67,12 @@ footer {
     padding-top: 2em;
     padding-bottom: 1em;
 }
+.hero-footer {
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+.attribute {
+    font-size: 0.8em;
+    color: slategray;
+}

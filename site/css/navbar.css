@@ -14,7 +14,9 @@
 }
 
 .navbar-custom .navbar-brand {
-    color: white;
+    color: peru;
+    font-family: monospace;
+    font-style: italic;
 }
 
 .navbar-custom .navbar-brand:hover,
