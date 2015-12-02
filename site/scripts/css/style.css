@@ -154,7 +154,7 @@ html, body {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../../assets/bing-space.jpg) no-repeat center center;
+    background: url(../../../assets/bing-space.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -207,7 +207,7 @@ html, body {
 .banner {
     padding: 100px;
     color: #f8f8f8;
-    background: url(../../assets/material.jpg) no-repeat center center;
+    background: url(../../../assets/material.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -254,7 +254,7 @@ html, body {
 .banner-header {
     padding: 50px;
     color: #f8f8f8;
-    background: url(../../assets/wallpaper-header.png) no-repeat center center;
+    background: url(../../../assets/wallpaper-header.png) no-repeat center center;
     background-size: cover;
 }
 
