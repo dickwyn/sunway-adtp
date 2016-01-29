@@ -1,71 +1,57 @@
 body {
     padding-top: 50px;
 }
-
-html, body {
-  height: 100%;
+html,
+body {
+    height: 100%;
 }
-
 .about-text {
-    font-size:1.2em;
+    font-size: 1.2em;
     padding-bottom: 5px;
 }
-
 .description {
-    font-size:1.2em;
+    font-size: 1.2em;
 }
-
 .img-responsive {
     padding-bottom: 1%;
 }
-
 .fineprint {
     font-size: 0.8em;
     font-style: italic;
     padding-top: 5px;
 }
-
 .featurette-divider {
     margin: 30px 0;
 }
-
 .featurette-heading {
     font-size: 3em;
     padding-left: 0.2em;
 }
-
 .lead {
     padding-left: 0.5em;
 }
-
 .col-md-8 .button-padding {
     padding-top: 1.5em;
     padding-bottom: 2em;
 }
-
 .no-padding {
     font-size: 2em;
 }
-
 .container .row .input-group .input-group-addon,
 .container .row .input-group .form-control,
-.container .row .input-group .input-group-btn .btn{
+.container .row .input-group .input-group-btn .btn {
     border-radius: 2px;
     border-color: none;
 }
-
 .container .row .btn {
-    border-radius:3px;
+    border-radius: 3px;
 }
-
 .page-header {
     padding-top: 0px !important;
 }
-
 .highlight-text {
     font-size: 1.2em;
 }
-
 .pathway-chart {
     position: absolute;
     top: 0;
@@ -76,24 +62,20 @@ html, body {
     height: 30%;
     margin: auto;
 }
-
 #pathway-box {
     position: relative;
 }
-
-.jumbotron{
+.jumbotron {
     background-color: whitesmoke !important;
     border-radius: 2px !important;
 }
-.container-fluid{
-    padding:0 !important;
+.container-fluid {
+    padding: 0 !important;
     border-radius: 0px;
 }
-
-       .header-fixed {
-    width: 100% 
+.header-fixed {
+    width: 100%
 }
-
 .header-fixed > thead,
 .header-fixed > tbody,
 .header-fixed > thead > tr,
@@ -102,7 +84,6 @@ html, body {
 .header-fixed > tbody > tr > td {
     display: block;
 }
-
 .header-fixed > tbody > tr:after,
 .header-fixed > thead > tr:after {
     content: ' ';
@@ -110,12 +91,10 @@ html, body {
     visibility: hidden;
     clear: both;
 }
-
 .header-fixed > tbody {
     overflow-y: auto;
     height: 150px;
 }
-
 .header-fixed > tbody > tr > td,
 .header-fixed > thead > tr > th {
     width: 20%;
@@ -123,33 +102,29 @@ html, body {
 }
 
 /* landing page */
+
 .lead {
     font-size: 18px;
     font-weight: 400;
 }
-
 .odd-section {
     padding: 50px 0;
     background-color: #f8f8f8;
 }
-
 .even-section {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
-
 .section-heading {
     margin-bottom: 30px;
 }
-
 .section-heading-spacer {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
 }
-
-.intro-header {
+.article-header {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -157,115 +132,178 @@ html, body {
     background: url(../../../assets/bing-space.jpg) no-repeat center center;
     background-size: cover;
 }
-
 .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
 }
-
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
 }
-
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
-
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
     }
-
     .intro-message > h1 {
         font-size: 3em;
     }
-
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-
     .intro-divider {
         width: 100%;
     }
 }
-
 .banner {
     padding: 100px;
     color: #f8f8f8;
     background: url(../../../assets/material.jpg) no-repeat center center;
     background-size: cover;
 }
-
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
 }
-
 .banner ul {
     margin-bottom: 0;
 }
-
 .banner-social-buttons {
     float: right;
     margin-top: 0;
 }
-
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
 }
-
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
     }
-
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
 }
-
 .banner-header {
     padding: 50px;
     color: #f8f8f8;
     background: url(../../../assets/wallpaper-header.png) no-repeat center center;
     background-size: cover;
 }
-
 .banner-header h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
 }
-
-
 .well {
     border-radius: 0px !important;
     background-color: transparent!important;
+}
+.article {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+.article-header {
+    background-color: #808080;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+}
+.article-header .site-heading,
+.article-header .post-heading,
+.article-header .page-heading {
+    padding: 100px 0 50px;
+    color: white;
+}
+@media only screen and (min-width: 768px) {
+    .article-header .site-heading,
+    .article-header .post-heading,
+    .article-header .page-heading {
+        padding: 150px 0;
+    }
+}
+.article-header .site-heading,
+.article-header .page-heading {
+    text-align: center;
+}
+.article-header .site-heading h1,
+.article-header .page-heading h1 {
+    margin-top: 0;
+    font-size: 50px;
+}
+.article-header .site-heading .subheading,
+.article-header .page-heading .subheading {
+    font-size: 24px;
+    line-height: 1.1;
+    display: block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin: 10px 0 0;
+}
+@media only screen and (min-width: 768px) {
+    .article-header .site-heading h1,
+    .article-header .page-heading h1 {
+        font-size: 80px;
+    }
+}
+.article-header .post-heading h1 {
+    font-size: 35px;
+}
+.article-header .post-heading .subheading,
+.article-header .post-heading .meta {
+    line-height: 1.1;
+    display: block;
+}
+.article-header .post-heading .subheading {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin: 10px 0 30px;
+    font-weight: 600;
+}
+.article-header .post-heading .meta {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+}
+.article-header .post-heading .meta a {
+    color: white;
+}
+@media only screen and (min-width: 768px) {
+    .article-header .post-heading h1 {
+        font-size: 55px;
+    }
+    .article-header .post-heading .subheading {
+        font-size: 30px;
+    }
 }
