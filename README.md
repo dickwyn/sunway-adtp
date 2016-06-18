@@ -1,4 +1,5 @@
-![alt tag](https://3.bp.blogspot.com/-5qpPFHO7Kcs/V1ggVRm2TKI/AAAAAAABqVw/rVtLSO8d_Fs7zHBq-iB-M89NUvAO41MFACLcB/s320/testorange-logo-long.png)<br>
+#![alt tag](https://3.bp.blogspot.com/-5qpPFHO7Kcs/V1ggVRm2TKI/AAAAAAABqVw/rVtLSO8d_Fs7zHBq-iB-M89NUvAO41MFACLcB/s320/testorange-logo-long.png)<br>
+
 <h5>Known issues:</h5>
 <li>Accordion panel in about.html page is not in sync</li>
 <li>Some image files do not load properly</li>
