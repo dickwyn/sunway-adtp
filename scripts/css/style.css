@@ -141,6 +141,7 @@ body {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
+    color: #fff;
 }
 .intro-divider {
     width: 400px;
@@ -149,6 +150,7 @@ body {
 }
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    color: antiquewhite;
 }
 @media(max-width:767px) {
     .intro-message {
@@ -318,4 +320,8 @@ blockquote {
     margin: 5px;
     background-position: top left;
     background-repeat: no-repeat;
+}
+
+.intro-header {
+    background: url(../../assets/bing-space.jpg) no-repeat center center;
 }
