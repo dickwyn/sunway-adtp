@@ -1,12 +1,12 @@
-# American Degree Transfer Program
-Sunway University
-microsite
-
-known issues: 
-</br>1. The footer will not stick to the bottom of the page when the initial height is not 100%
-</br>2. Accordion panel in about.html page is not in sync
-
-Made with:
-</br>- Bootstrap 3.3.5
-</br>- jQuery 2.1.3
-</br>- Font-awesome 4.4.0
+![alt tag](https://3.bp.blogspot.com/-5qpPFHO7Kcs/V1ggVRm2TKI/AAAAAAABqVw/rVtLSO8d_Fs7zHBq-iB-M89NUvAO41MFACLcB/s320/testorange-logo-long.png)<br>
+<h5>Known issues:</h5>
+<li>Accordion panel in about.html page is not in sync</li>
+<li>Some image files do not load properly</li>
+<br>
+<h5>Built with:</h5>
+<li>Bootstrap 3.3.5</li>
+<li>Font Awesome 4.4.0</i>
+<br>
+View full site <a href="http://testorange-adtp.dickwyn.xyz/">here</a>
+<hr>
+Brand names, logos and trademarks used herein remain the property of their respective owners.
