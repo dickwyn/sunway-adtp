@@ -2,10 +2,10 @@
 <h5>Known issues:</h5>
 <li>Accordion panel in about.html page is not in sync</li>
 <li>Some image files do not load properly</li>
-<br>
 <h5>Built with:</h5>
 <li>Bootstrap 3.3.5</li>
 <li>Font Awesome 4.4.0</i>
+<br>
 <br>
 View full site <a href="http://testorange-adtp.dickwyn.xyz/">here</a>
 <hr>
